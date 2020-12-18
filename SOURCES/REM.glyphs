@@ -63,15 +63,15 @@ ital = {
 11 = 11;
 };
 wght = {
-100 = 39;
-200 = 62;
-300 = 84;
-400 = 106;
-500 = 131;
-600 = 153;
-700 = 175;
-800 = 200;
-900 = 223;
+100 = 72;
+200 = 120;
+300 = 164;
+400 = 208;
+500 = 257;
+600 = 308;
+700 = 350;
+800 = 402;
+900 = 445;
 };
 };
 },
@@ -311,7 +311,7 @@ verticalStems = (
 80,
 84
 );
-weightValue = 39;
+weightValue = 72;
 widthValue = 0;
 xHeight = 1004;
 },
@@ -401,7 +401,7 @@ verticalStems = (
 268,
 275
 );
-weightValue = 131;
+weightValue = 258;
 widthValue = 0;
 xHeight = 1040;
 },
@@ -499,7 +499,7 @@ verticalStems = (
 457,
 467
 );
-weightValue = 223;
+weightValue = 445;
 widthValue = 0;
 xHeight = 1075;
 },
@@ -592,7 +592,7 @@ verticalStems = (
 80,
 84
 );
-weightValue = 39;
+weightValue = 72;
 widthValue = 11;
 xHeight = 1004;
 },
@@ -683,7 +683,7 @@ verticalStems = (
 268,
 274
 );
-weightValue = 131;
+weightValue = 258;
 widthValue = 11;
 xHeight = 1040;
 },
@@ -770,12 +770,12 @@ iconName = Bold;
 id = "6D60D92C-1450-4586-BB49-599D0D4C1213";
 italicAngle = 11;
 verticalStems = (
-444,
+445,
 449,
 457,
 467
 );
-weightValue = 223;
+weightValue = 445;
 widthValue = 11;
 xHeight = 1075;
 }
@@ -203797,7 +203797,7 @@ eth.bold
 );
 }
 );
-interpolationWeight = 39;
+interpolationWeight = 72;
 interpolationWidth = 0;
 instanceInterpolations = {
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 1;
@@ -203824,11 +203824,11 @@ eth.bold
 );
 }
 );
-interpolationWeight = 62;
+interpolationWeight = 120;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.25;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.75;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.25806;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.74194;
 };
 name = ExtraLight;
 weightClass = ExtraLight;
@@ -203852,11 +203852,11 @@ eth.bold
 );
 }
 );
-interpolationWeight = 84;
+interpolationWeight = 164;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.48913;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.51087;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.49462;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.50538;
 };
 name = Light;
 weightClass = Light;
@@ -203885,11 +203885,11 @@ value = (
 );
 }
 );
-interpolationWeight = 106;
+interpolationWeight = 208;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.72826;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.27174;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.73118;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.26882;
 };
 name = Regular;
 },
@@ -203916,10 +203916,11 @@ value = (
 );
 }
 );
-interpolationWeight = 131;
+interpolationWeight = 257;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 1;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.99462;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.00538;
 };
 name = Medium;
 weightClass = Medium;
@@ -203947,11 +203948,11 @@ value = (
 );
 }
 );
-interpolationWeight = 153;
+interpolationWeight = 308;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.76087;
-"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.23913;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.73262;
+"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.26738;
 };
 name = SemiBold;
 weightClass = SemiBold;
@@ -203975,11 +203976,11 @@ value = (
 );
 }
 );
-interpolationWeight = 175;
+interpolationWeight = 350;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.52174;
-"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.47826;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.50802;
+"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.49198;
 };
 isBold = 1;
 name = Bold;
@@ -204004,11 +204005,11 @@ value = (
 );
 }
 );
-interpolationWeight = 200;
+interpolationWeight = 402;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.25;
-"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.75;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.22995;
+"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.77005;
 };
 name = ExtraBold;
 weightClass = ExtraBold;
@@ -204032,7 +204033,7 @@ value = (
 );
 }
 );
-interpolationWeight = 223;
+interpolationWeight = 445;
 interpolationWidth = 0;
 instanceInterpolations = {
 "5C950900-0D0F-4959-81DE-75F048290F1B" = 1;
@@ -204054,15 +204055,19 @@ baht.bold,
 cent.bold.osf,
 eth.bold
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 39;
+interpolationWeight = 72;
 interpolationWidth = 11;
 instanceInterpolations = {
 "13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 1;
 };
-name = "Thin Italic";
+name = Thin;
 weightClass = Thin;
 },
 {
@@ -204079,16 +204084,20 @@ baht.bold,
 cent.bold.osf,
 eth.bold
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 62;
+interpolationWeight = 120;
 interpolationWidth = 11;
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.75;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.74194;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25806;
 };
-name = "ExtraLight Italic";
+name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
@@ -204105,16 +204114,20 @@ baht.bold,
 cent.bold.osf,
 eth.bold
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 84;
+interpolationWeight = 164;
 interpolationWidth = 11;
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.51087;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.48913;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.50538;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.49462;
 };
-name = "Light Italic";
+name = Light;
 weightClass = Light;
 },
 {
@@ -204136,17 +204149,21 @@ value = (
 "won.bold=won",
 "baht.bold=baht"
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 106;
+interpolationWeight = 208;
 interpolationWidth = 11;
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.27174;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.72826;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.26882;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.73118;
 };
 isItalic = 1;
-name = "Regular Italic";
+name = Regular;
 },
 {
 customParameters = (
@@ -204167,15 +204184,20 @@ value = (
 "won.bold=won",
 "baht.bold=baht"
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 131;
+interpolationWeight = 257;
 interpolationWidth = 11;
 instanceInterpolations = {
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 1;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.00538;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.99462;
 };
-name = "Medium Italic";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -204198,16 +204220,20 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 153;
+interpolationWeight = 308;
 interpolationWidth = 11;
 instanceInterpolations = {
-"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.23913;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.76087;
+"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.26738;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.73262;
 };
-name = "SemiBold Italic";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -204225,18 +204251,22 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 175;
+interpolationWeight = 350;
 interpolationWidth = 11;
 instanceInterpolations = {
-"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.47826;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.52174;
+"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.49198;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.50802;
 };
 isBold = 1;
 isItalic = 1;
-name = "Bold Italic";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -204254,16 +204284,20 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 200;
+interpolationWeight = 402;
 interpolationWidth = 11;
 instanceInterpolations = {
-"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.75;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25;
+"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.77005;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.22995;
 };
-name = "ExtraBold Italic";
+name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
@@ -204281,15 +204315,19 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
+},
+{
+name = familyName;
+value = "REM Italic";
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 223;
+interpolationWeight = 445;
 interpolationWidth = 11;
 instanceInterpolations = {
 "6D60D92C-1450-4586-BB49-599D0D4C1213" = 1;
 };
-name = "Black Italic";
+name = Black;
 weightClass = Black;
 }
 );
