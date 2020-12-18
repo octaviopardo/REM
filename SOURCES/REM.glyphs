@@ -12,8 +12,16 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2019 The REM Project Octavio Pardo (https://github.com/octaviopardo/REM)";
+copyright = "Copyright 2019 The REM Project Authors (https://github.com/octaviopardo/REM)";
 customParameters = (
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
 {
 name = Axes;
 value = (
@@ -55,7 +63,7 @@ wght = {
 };
 }
 );
-date = "2020-03-07 18:26:10 +0000";
+date = "2020-12-18 02:14:54 +0000";
 designer = "Octavio Pardo";
 designerURL = www.octaviopardo.com;
 familyName = REM;
