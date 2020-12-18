@@ -4,7 +4,8 @@ DisplayStrings = (
 "eects\012eciency\012aandia\012/fi nalissimo\012/fl avour",
 "ppp\012lll",
 "AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute",
-G
+G,
+"/aringacute"
 );
 classes = (
 {
@@ -57,9 +58,15 @@ value = 1;
 name = "Axis Mappings";
 value = {
 wght = {
-39 = 300;
-131 = 400;
-223 = 900;
+100 = 39;
+200 = 62;
+300 = 84;
+400 = 106;
+500 = 131;
+600 = 153;
+700 = 175;
+800 = 200;
+900 = 223;
 };
 };
 },
@@ -203818,7 +203825,7 @@ instanceInterpolations = {
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.75;
 };
 name = ExtraLight;
-weightClass = UltraLight;
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -203879,7 +203886,6 @@ instanceInterpolations = {
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.27174;
 };
 name = Regular;
-weightClass = Normal;
 },
 {
 customParameters = (
@@ -204095,7 +204101,7 @@ instanceInterpolations = {
 "74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25;
 };
 name = "ExtraLight Italic";
-weightClass = UltraLight;
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -204153,7 +204159,6 @@ instanceInterpolations = {
 };
 isItalic = 1;
 name = "Regular Italic";
-weightClass = Normal;
 },
 {
 customParameters = (
