@@ -1,5 +1,5 @@
 {
-.appVersion = "1300";
+.appVersion = "1342";
 DisplayStrings = (
 "eects\012eciency\012aandia\012/fi nalissimo\012/fl avour",
 "ppp\012lll",
@@ -35,6 +35,24 @@ value = (
 {
 name = vendorID;
 value = GOOG;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+39 = 300;
+131 = 400;
+223 = 900;
+};
+};
 }
 );
 date = "2020-03-07 18:26:10 +0000";
@@ -204223,6 +204241,7 @@ name = Black;
 weightClass = Black;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = "Nueva propiedad";
