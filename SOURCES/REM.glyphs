@@ -3,7 +3,8 @@
 DisplayStrings = (
 "eects\012eciency\012aandia\012/fi nalissimo\012/fl avour",
 "ppp\012lll",
-"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute"
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute",
+G
 );
 classes = (
 {
@@ -61,6 +62,15 @@ wght = {
 223 = 900;
 };
 };
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+NULL,
+nbspace
+);
 }
 );
 date = "2020-12-18 02:14:54 +0000";
@@ -204,8 +214,36 @@ capHeight = 1434;
 custom = Thin;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -277,8 +315,36 @@ ascender = 1511;
 capHeight = 1434;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -337,6 +403,40 @@ alignmentZones = (
 ascender = 1511;
 capHeight = 1434;
 custom = Black;
+customParameters = (
+{
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
+}
+);
 descender = -399;
 guideLines = (
 {
@@ -404,8 +504,36 @@ custom = "Thin Italic";
 customValue = 100;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -469,8 +597,36 @@ custom = Italic;
 customValue = 100;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -532,8 +688,36 @@ custom = "Black Italic";
 customValue = 100;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -584,6 +768,38 @@ xHeight = 1075;
 }
 );
 glyphs = (
+{
+glyphname = nbspace;
+lastChange = "2020-03-07 19:16:40 +0000";
+layers = (
+{
+layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
+width = 512;
+},
+{
+layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
+width = 573;
+},
+{
+layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
+width = 645;
+},
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+width = 512;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+width = 573;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+width = 645;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
+},
 {
 color = 4;
 glyphname = A;
@@ -143201,38 +143417,6 @@ width = 573;
 unicode = 0020;
 },
 {
-glyphname = nbspace;
-lastChange = "2020-03-07 19:16:40 +0000";
-layers = (
-{
-layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
-width = 512;
-},
-{
-layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
-width = 573;
-},
-{
-layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
-width = 645;
-},
-{
-layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
-width = 512;
-},
-{
-layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
-width = 573;
-},
-{
-layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
-width = 645;
-}
-);
-widthMetricsKey = space;
-unicode = 00A0;
-},
-{
 glyphname = baht;
 lastChange = "2020-03-07 19:37:57 +0000";
 layers = (
@@ -203598,51 +203782,6 @@ peseta.bold,
 peso.bold,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 39;
@@ -203670,51 +203809,6 @@ peseta.bold,
 peso.bold,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 62;
@@ -203743,51 +203837,6 @@ peseta.bold,
 peso.bold,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 84;
@@ -203821,51 +203870,6 @@ value = (
 "baht.bold=baht",
 "peso.bold=peso"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 106;
@@ -203898,51 +203902,6 @@ value = (
 "baht.bold=baht",
 "peso.bold=peso"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 131;
@@ -203974,51 +203933,6 @@ value = (
 "peso.bold=peso",
 "eth.bold=eth"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 153;
@@ -204060,38 +203974,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 175;
@@ -204133,38 +204015,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 200;
@@ -204206,38 +204056,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationWeight = 223;
@@ -204293,38 +204111,6 @@ Axis = Italic;
 Location = 11;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204363,38 +204149,6 @@ Axis = Italic;
 Location = 11;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204434,38 +204188,6 @@ Axis = Italic;
 Location = 11;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204497,51 +204219,6 @@ value = (
 "won.bold=won",
 "baht.bold=baht"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204574,51 +204251,6 @@ value = (
 "won.bold=won",
 "baht.bold=baht"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204650,51 +204282,6 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204722,51 +204309,6 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204796,51 +204338,6 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
@@ -204868,51 +204365,6 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
