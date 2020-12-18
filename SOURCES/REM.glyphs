@@ -203723,7 +203723,7 @@ instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.25;
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.75;
 };
-name = UltraLight;
+name = ExtraLight;
 weightClass = UltraLight;
 },
 {
@@ -203874,7 +203874,7 @@ instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.72826;
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.27174;
 };
-name = Book;
+name = Regular;
 weightClass = Normal;
 },
 {
@@ -204404,7 +204404,7 @@ instanceInterpolations = {
 "13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.75;
 "74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25;
 };
-name = "UltraLight Italic";
+name = "ExtraLight Italic";
 weightClass = UltraLight;
 },
 {
@@ -204551,7 +204551,8 @@ instanceInterpolations = {
 "13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.27174;
 "74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.72826;
 };
-name = "Book Italic";
+isItalic = 1;
+name = "Regular Italic";
 weightClass = Normal;
 },
 {
@@ -204626,7 +204627,7 @@ interpolationWidth = 11;
 instanceInterpolations = {
 "74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 1;
 };
-name = Italic;
+name = "Medium Italic";
 weightClass = Medium;
 },
 {
@@ -204775,6 +204776,8 @@ instanceInterpolations = {
 "6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.47826;
 "74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.52174;
 };
+isBold = 1;
+isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
 },
@@ -213733,6 +213736,7 @@ two.osf = -30.72;
 };
 };
 manufacturer = TyOP;
+manufacturerURL = www.octaviopardo.com;
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
