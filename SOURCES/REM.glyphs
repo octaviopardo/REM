@@ -5,7 +5,8 @@ DisplayStrings = (
 "ppp\012lll",
 "AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute",
 G,
-"/aringacute"
+"/aringacute",
+epmbnotHO
 );
 classes = (
 {
@@ -57,6 +58,10 @@ value = 1;
 {
 name = "Axis Mappings";
 value = {
+ital = {
+0 = 0;
+11 = 11;
+};
 wght = {
 100 = 39;
 200 = 62;
@@ -320,6 +325,7 @@ alignmentZones = (
 );
 ascender = 1511;
 capHeight = 1434;
+custom = Medium;
 customParameters = (
 {
 name = typoAscender;
@@ -393,7 +399,7 @@ verticalStems = (
 258,
 264,
 268,
-274
+275
 );
 weightValue = 131;
 widthValue = 0;
@@ -480,16 +486,16 @@ position = "{210, 2387}";
 }
 );
 horizontalStems = (
-342,
 358,
+365,
 399,
 420
 );
 iconName = Bold_Extended;
 id = "5C950900-0D0F-4959-81DE-75F048290F1B";
 verticalStems = (
-444,
-449,
+445,
+448,
 457,
 467
 );
@@ -600,7 +606,7 @@ alignmentZones = (
 );
 ascender = 1511;
 capHeight = 1434;
-custom = Italic;
+custom = "Medium Italic";
 customValue = 100;
 customParameters = (
 {
@@ -62603,7 +62609,7 @@ unicode = 0153;
 {
 color = 4;
 glyphname = p;
-lastChange = "2020-03-07 19:38:00 +0000";
+lastChange = "2020-12-18 03:13:18 +0000";
 layers = (
 {
 background = {
@@ -204035,24 +204041,6 @@ name = Black;
 weightClass = Black;
 },
 {
-exports = 0;
-customParameters = (
-{
-name = "Nueva propiedad";
-value = "Nuevo valor";
-}
-);
-interpolationWeight = 110;
-interpolationWidth = 6;
-instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.12451;
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.35079;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.10375;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.42095;
-};
-name = "110 - 6 degrees";
-},
-{
 customParameters = (
 {
 name = "Remove Glyphs";
@@ -213131,35 +213119,37 @@ oV = "37";
 tH = "33";
 };
 "514A1583-697A-4C0A-B081-2869E94CF283" = {
-HH = "115";
-HV = "131";
-OH = "121";
-OV = "134";
-nV = "126";
-oH = "109";
-oV = "129";
-tH = "110";
+HH = "235";
+HV = "268";
+OH = "248";
+OV = "275";
+nV = "258";
+nd = "234";
+oH = "160";
+oV = "264";
+tH = "225";
 };
 "5C950900-0D0F-4959-81DE-75F048290F1B" = {
-HH = "195";
-HV = "223";
-OH = "205";
-OV = "228";
-nV = "217";
-nd = "167";
-oH = "175";
-oV = "219";
-tH = "167";
+HH = "400";
+HV = "456";
+OH = "420";
+OV = "467";
+nV = "445";
+nd = "398";
+oH = "359";
+oV = "447";
+tH = "342";
 };
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = {
-HH = "36";
-HV = "39";
-OH = "36";
-OV = "41";
-nV = "35";
-oH = "33";
-oV = "37";
-tH = "33";
+HH = "73";
+HV = "80";
+OH = "74";
+OV = "84";
+nV = "72";
+nd = "68";
+oH = "68";
+oV = "75";
+tH = "68";
 };
 "6D60D92C-1450-4586-BB49-599D0D4C1213" = {
 HH = "195";
