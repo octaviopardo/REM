@@ -230,7 +230,7 @@ name = hheaAscender;
 value = 2390;
 },
 {
-name = typoDescender;
+name = hheaDescender;
 value = -460;
 },
 {
@@ -331,7 +331,7 @@ name = hheaAscender;
 value = 2390;
 },
 {
-name = typoDescender;
+name = hheaDescender;
 value = -460;
 },
 {
@@ -421,7 +421,7 @@ name = hheaAscender;
 value = 2390;
 },
 {
-name = typoDescender;
+name = hheaDescender;
 value = -460;
 },
 {
@@ -520,7 +520,7 @@ name = hheaAscender;
 value = 2390;
 },
 {
-name = typoDescender;
+name = hheaDescender;
 value = -460;
 },
 {
@@ -613,7 +613,7 @@ name = hheaAscender;
 value = 2390;
 },
 {
-name = typoDescender;
+name = hheaDescender;
 value = -460;
 },
 {
@@ -704,7 +704,7 @@ name = hheaAscender;
 value = 2390;
 },
 {
-name = typoDescender;
+name = hheaDescender;
 value = -460;
 },
 {
@@ -203961,19 +203961,6 @@ value = (
 "peso.bold=peso",
 "eth.bold=eth"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
 }
 );
 interpolationWeight = 175;
@@ -203982,6 +203969,7 @@ instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.52174;
 "5C950900-0D0F-4959-81DE-75F048290F1B" = 0.47826;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -204001,19 +203989,6 @@ value = (
 "peseta.bold=peseta",
 "peso.bold=peso",
 "eth.bold=eth"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
-}
 );
 }
 );
@@ -204042,19 +204017,6 @@ value = (
 "peseta.bold=peseta",
 "peso.bold=peso",
 "eth.bold=eth"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 0;
-}
 );
 }
 );
@@ -204098,19 +204060,6 @@ baht.bold,
 cent.bold.osf,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
 }
 );
 interpolationCustom = 100;
@@ -204135,19 +204084,6 @@ won.bold,
 baht.bold,
 cent.bold.osf,
 eth.bold
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 11;
-}
 );
 }
 );
@@ -204174,19 +204110,6 @@ won.bold,
 baht.bold,
 cent.bold.osf,
 eth.bold
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 11;
-}
 );
 }
 );
