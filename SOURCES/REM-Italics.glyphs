@@ -6,7 +6,8 @@ DisplayStrings = (
 "AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute",
 G,
 "/aringacute",
-epmbnotHO
+epmbnotHO,
+"/Uhorn"
 );
 classes = (
 {
@@ -77,8 +78,8 @@ nbspace
 );
 },
 {
-name = "";
-value = "New Value";
+name = "Enforce Compatibility Check";
+value = 1;
 }
 );
 date = "2020-12-18 02:14:54 +0000";
@@ -487,6 +488,24 @@ xHeight = 1075;
 }
 );
 glyphs = (
+{
+glyphname = CR;
+layers = (
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+width = 1200;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+width = 1200;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+width = 1200;
+}
+);
+unicode = 000D;
+},
 {
 glyphname = nbspace;
 lastChange = "2020-12-22 23:58:30 +0000";

@@ -3,24 +3,24 @@ set -e
 
 mkdir -p ../FONTS ../FONTS/ttf ../FONTS/otf
 
-# echo "GENERATING TTFs"
-# fontmake -g REM-Roman.glyphs -i -o ttf --output-dir ../FONTS/ttf
-# fontmake -g REM-Italics.glyphs -i -o ttf --output-dir ../FONTS/ttf
+echo "GENERATING TTFs"
+fontmake -g REM-Roman.glyphs -i -f -o ttf --output-dir ../FONTS/ttf
+fontmake -g REM-Italics.glyphs -i -f -o ttf --output-dir ../FONTS/ttf
 
-# echo "POST PROCESSING TTFs"
-# ttfs=$(ls ../FONTS/ttf/*.ttf)
-# for ttf in $ttfs
-# do
-# 	ttfautohint $ttf "$ttf.fix";
-# 	mv "$ttf.fix" $ttf;
+echo "POST PROCESSING TTFs"
+ttfs=$(ls ../FONTS/ttf/*.ttf)
+for ttf in $ttfs
+do
+	ttfautohint $ttf "$ttf.fix";
+	mv "$ttf.fix" $ttf;
 	
-# 	gftools fix-dsig -f $ttf;
+	gftools fix-dsig -f $ttf;
     
-# 	gftools fix-hinting $ttf;
-#     mv "$ttf.fix" $ttf;
+	gftools fix-hinting $ttf;
+    mv "$ttf.fix" $ttf;
 
     
-# done
+done
 
 echo "GENERATING OTFs"
 fontmake -g REM-Roman.glyphs -i -o otf --output-dir ../FONTS/otf
