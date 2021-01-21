@@ -1,4 +1,4 @@
-Copyright 2007 The Ibarra Real Nova Project Authors (https://github.com/googlefonts/ibarrareal)
+Copyright 2019 The REM Project Authors (https://github.com/octaviopardo/REM)
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007

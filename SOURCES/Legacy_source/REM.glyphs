@@ -1,9 +1,12 @@
 {
-.appVersion = "1300";
+.appVersion = "1342";
 DisplayStrings = (
 "eects\012eciency\012aandia\012/fi nalissimo\012/fl avour",
 "ppp\012lll",
-"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute"
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute",
+G,
+"/aringacute",
+epmbnotHO
 );
 classes = (
 {
@@ -12,8 +15,16 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2019 The REM Project Octavio Pardo (https://github.com/octaviopardo/REM)";
+copyright = "Copyright 2019 The REM Project Authors (https://github.com/octaviopardo/REM)";
 customParameters = (
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
 {
 name = Axes;
 value = (
@@ -35,9 +46,46 @@ value = (
 {
 name = vendorID;
 value = GOOG;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+ital = {
+0 = 0;
+11 = 11;
+};
+wght = {
+100 = 72;
+200 = 120;
+300 = 164;
+400 = 208;
+500 = 257;
+600 = 308;
+700 = 350;
+800 = 402;
+900 = 445;
+};
+};
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+NULL,
+nbspace
+);
 }
 );
-date = "2020-03-07 18:26:10 +0000";
+date = "2020-12-18 02:14:54 +0000";
 designer = "Octavio Pardo";
 designerURL = www.octaviopardo.com;
 familyName = REM;
@@ -178,8 +226,36 @@ capHeight = 1434;
 custom = Thin;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = hheaDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -235,7 +311,7 @@ verticalStems = (
 80,
 84
 );
-weightValue = 39;
+weightValue = 72;
 widthValue = 0;
 xHeight = 1004;
 },
@@ -249,10 +325,39 @@ alignmentZones = (
 );
 ascender = 1511;
 capHeight = 1434;
+custom = Medium;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = hheaDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -294,9 +399,9 @@ verticalStems = (
 258,
 264,
 268,
-274
+275
 );
-weightValue = 131;
+weightValue = 258;
 widthValue = 0;
 xHeight = 1040;
 },
@@ -311,6 +416,40 @@ alignmentZones = (
 ascender = 1511;
 capHeight = 1434;
 custom = Black;
+customParameters = (
+{
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = hheaDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
+}
+);
 descender = -399;
 guideLines = (
 {
@@ -347,20 +486,20 @@ position = "{210, 2387}";
 }
 );
 horizontalStems = (
-342,
 358,
+365,
 399,
 420
 );
 iconName = Bold_Extended;
 id = "5C950900-0D0F-4959-81DE-75F048290F1B";
 verticalStems = (
-444,
-449,
+445,
+448,
 457,
 467
 );
-weightValue = 223;
+weightValue = 445;
 widthValue = 0;
 xHeight = 1075;
 },
@@ -378,8 +517,36 @@ custom = "Thin Italic";
 customValue = 100;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = hheaDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -425,7 +592,7 @@ verticalStems = (
 80,
 84
 );
-weightValue = 39;
+weightValue = 72;
 widthValue = 11;
 xHeight = 1004;
 },
@@ -439,12 +606,40 @@ alignmentZones = (
 );
 ascender = 1511;
 capHeight = 1434;
-custom = Italic;
+custom = "Medium Italic";
 customValue = 100;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = hheaDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -488,7 +683,7 @@ verticalStems = (
 268,
 274
 );
-weightValue = 131;
+weightValue = 258;
 widthValue = 11;
 xHeight = 1040;
 },
@@ -506,8 +701,36 @@ custom = "Black Italic";
 customValue = 100;
 customParameters = (
 {
-name = "Master Icon Glyph Name";
-value = n;
+name = typoAscender;
+value = 2390;
+},
+{
+name = typoDescender;
+value = -460;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 2390;
+},
+{
+name = hheaDescender;
+value = -460;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2390;
+},
+{
+name = winDescent;
+value = 460;
 }
 );
 descender = -399;
@@ -547,17 +770,49 @@ iconName = Bold;
 id = "6D60D92C-1450-4586-BB49-599D0D4C1213";
 italicAngle = 11;
 verticalStems = (
-444,
+445,
 449,
 457,
 467
 );
-weightValue = 223;
+weightValue = 445;
 widthValue = 11;
 xHeight = 1075;
 }
 );
 glyphs = (
+{
+glyphname = nbspace;
+lastChange = "2020-03-07 19:16:40 +0000";
+layers = (
+{
+layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
+width = 512;
+},
+{
+layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
+width = 573;
+},
+{
+layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
+width = 645;
+},
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+width = 512;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+width = 573;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+width = 645;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
+},
 {
 color = 4;
 glyphname = A;
@@ -62354,7 +62609,7 @@ unicode = 0153;
 {
 color = 4;
 glyphname = p;
-lastChange = "2020-03-07 19:38:00 +0000";
+lastChange = "2020-12-18 03:13:18 +0000";
 layers = (
 {
 background = {
@@ -143175,38 +143430,6 @@ width = 573;
 unicode = 0020;
 },
 {
-glyphname = nbspace;
-lastChange = "2020-03-07 19:16:40 +0000";
-layers = (
-{
-layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
-width = 512;
-},
-{
-layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
-width = 573;
-},
-{
-layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
-width = 645;
-},
-{
-layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
-width = 512;
-},
-{
-layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
-width = 573;
-},
-{
-layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
-width = 645;
-}
-);
-widthMetricsKey = space;
-unicode = 00A0;
-},
-{
 glyphname = baht;
 lastChange = "2020-03-07 19:37:57 +0000";
 layers = (
@@ -203572,54 +203795,9 @@ peseta.bold,
 peso.bold,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 39;
+interpolationWeight = 72;
 interpolationWidth = 0;
 instanceInterpolations = {
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 1;
@@ -203644,61 +203822,16 @@ peseta.bold,
 peso.bold,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 62;
+interpolationWeight = 120;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.25;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.75;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.25806;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.74194;
 };
-name = UltraLight;
-weightClass = UltraLight;
+name = ExtraLight;
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -203717,58 +203850,13 @@ peseta.bold,
 peso.bold,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 84;
+interpolationWeight = 164;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.48913;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.51087;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.49462;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.50538;
 };
 name = Light;
 weightClass = Light;
@@ -203795,61 +203883,15 @@ value = (
 "baht.bold=baht",
 "peso.bold=peso"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 106;
+interpolationWeight = 208;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.72826;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.27174;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.73118;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.26882;
 };
-name = Book;
-weightClass = Normal;
+name = Regular;
 },
 {
 customParameters = (
@@ -203872,57 +203914,13 @@ value = (
 "baht.bold=baht",
 "peso.bold=peso"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 131;
+interpolationWeight = 257;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 1;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.99462;
+"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.00538;
 };
 name = Medium;
 weightClass = Medium;
@@ -203948,58 +203946,13 @@ value = (
 "peso.bold=peso",
 "eth.bold=eth"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 153;
+interpolationWeight = 308;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.76087;
-"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.23913;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.73262;
+"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.26738;
 };
 name = SemiBold;
 weightClass = SemiBold;
@@ -204021,59 +203974,15 @@ value = (
 "peso.bold=peso",
 "eth.bold=eth"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 175;
+interpolationWeight = 350;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.52174;
-"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.47826;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.50802;
+"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.49198;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -204094,58 +204003,13 @@ value = (
 "peso.bold=peso",
 "eth.bold=eth"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 200;
+interpolationWeight = 402;
 interpolationWidth = 0;
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.25;
-"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.75;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 0.22995;
+"5C950900-0D0F-4959-81DE-75F048290F1B" = 0.77005;
 };
 name = ExtraBold;
 weightClass = ExtraBold;
@@ -204167,77 +204031,15 @@ value = (
 "peso.bold=peso",
 "eth.bold=eth"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
-}
-);
-interpolationWeight = 223;
+interpolationWeight = 445;
 interpolationWidth = 0;
 instanceInterpolations = {
 "5C950900-0D0F-4959-81DE-75F048290F1B" = 1;
 };
 name = Black;
 weightClass = Black;
-},
-{
-customParameters = (
-{
-name = "Nueva propiedad";
-value = "Nuevo valor";
-}
-);
-interpolationWeight = 110;
-interpolationWidth = 6;
-instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.12451;
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.35079;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.10375;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.42095;
-};
-name = "110 - 6 degrees";
 },
 {
 customParameters = (
@@ -204253,59 +204055,16 @@ baht.bold,
 cent.bold.osf,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 39;
+interpolationWeight = 72;
 interpolationWidth = 11;
 instanceInterpolations = {
 "13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 1;
 };
+isItalic = 1;
+linkStyle = Thin;
 name = "Thin Italic";
 weightClass = Thin;
 },
@@ -204323,62 +204082,19 @@ baht.bold,
 cent.bold.osf,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 62;
+interpolationWeight = 120;
 interpolationWidth = 11;
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.75;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.74194;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25806;
 };
-name = "UltraLight Italic";
-weightClass = UltraLight;
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -204394,60 +204110,17 @@ baht.bold,
 cent.bold.osf,
 eth.bold
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 84;
+interpolationWeight = 164;
 interpolationWidth = 11;
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.51087;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.48913;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.50538;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.49462;
 };
+isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
 weightClass = Light;
 },
@@ -204470,62 +204143,17 @@ value = (
 "won.bold=won",
 "baht.bold=baht"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 106;
+interpolationWeight = 208;
 interpolationWidth = 11;
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.27174;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.72826;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.26882;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.73118;
 };
-name = "Book Italic";
-weightClass = Normal;
+isItalic = 1;
+name = Italic;
 },
 {
 customParameters = (
@@ -204546,60 +204174,18 @@ value = (
 "won.bold=won",
 "baht.bold=baht"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 131;
+interpolationWeight = 257;
 interpolationWidth = 11;
 instanceInterpolations = {
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 1;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.00538;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.99462;
 };
-name = Italic;
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
 weightClass = Medium;
 },
 {
@@ -204622,60 +204208,17 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 153;
+interpolationWeight = 308;
 interpolationWidth = 11;
 instanceInterpolations = {
-"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.23913;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.76087;
+"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.26738;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.73262;
 };
+isItalic = 1;
+linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
 },
@@ -204694,60 +204237,17 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 175;
+interpolationWeight = 350;
 interpolationWidth = 11;
 instanceInterpolations = {
-"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.47826;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.52174;
+"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.49198;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.50802;
 };
+isBold = 1;
+isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
 },
@@ -204766,60 +204266,17 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 200;
+interpolationWeight = 402;
 interpolationWidth = 11;
 instanceInterpolations = {
-"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.75;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.25;
+"6D60D92C-1450-4586-BB49-599D0D4C1213" = 0.77005;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.22995;
 };
+isItalic = 1;
+linkStyle = ExtraBold;
 name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
@@ -204838,59 +204295,16 @@ value = (
 "eth.bold=eth",
 "peseta.bold=peseta"
 );
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 11;
-}
-);
-},
-{
-name = hheaAscender;
-value = 2388;
-},
-{
-name = hheaDescender;
-value = -459;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 2388;
-},
-{
-name = typoDescender;
-value = -459;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2388;
-},
-{
-name = winDescent;
-value = 459;
 }
 );
 interpolationCustom = 100;
-interpolationWeight = 223;
+interpolationWeight = 445;
 interpolationWidth = 11;
 instanceInterpolations = {
 "6D60D92C-1450-4586-BB49-599D0D4C1213" = 1;
 };
+isItalic = 1;
+linkStyle = Black;
 name = "Black Italic";
 weightClass = Black;
 }
@@ -213706,6 +213120,7 @@ two.osf = -30.72;
 };
 };
 manufacturer = TyOP;
+manufacturerURL = www.octaviopardo.com;
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -213720,35 +213135,37 @@ oV = "37";
 tH = "33";
 };
 "514A1583-697A-4C0A-B081-2869E94CF283" = {
-HH = "115";
-HV = "131";
-OH = "121";
-OV = "134";
-nV = "126";
-oH = "109";
-oV = "129";
-tH = "110";
+HH = "235";
+HV = "268";
+OH = "248";
+OV = "275";
+nV = "258";
+nd = "234";
+oH = "160";
+oV = "264";
+tH = "225";
 };
 "5C950900-0D0F-4959-81DE-75F048290F1B" = {
-HH = "195";
-HV = "223";
-OH = "205";
-OV = "228";
-nV = "217";
-nd = "167";
-oH = "175";
-oV = "219";
-tH = "167";
+HH = "400";
+HV = "456";
+OH = "420";
+OV = "467";
+nV = "445";
+nd = "398";
+oH = "359";
+oV = "447";
+tH = "342";
 };
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = {
-HH = "36";
-HV = "39";
-OH = "36";
-OV = "41";
-nV = "35";
-oH = "33";
-oV = "37";
-tH = "33";
+HH = "73";
+HV = "80";
+OH = "74";
+OV = "84";
+nV = "72";
+nd = "68";
+oH = "68";
+oV = "75";
+tH = "68";
 };
 "6D60D92C-1450-4586-BB49-599D0D4C1213" = {
 HH = "195";
