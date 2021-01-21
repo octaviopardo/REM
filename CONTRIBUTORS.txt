@@ -16,3 +16,4 @@
 # Please keep the list sorted.
 # (first name; alphabetical order)
 
+Octavio Pardo <hello@octaviopardo.com>
