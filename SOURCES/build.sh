@@ -49,6 +49,7 @@ do
     
 	gftools fix-hinting $ttf;
     mv "$ttf.fix" $ttf;    
+    
 done
 
 
