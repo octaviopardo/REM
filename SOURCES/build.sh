@@ -34,8 +34,8 @@ rm ../FONTS/ttf/*gasp.ttf
 
 
 echo "GENERATING TTFs"
-fontmake -g REM-Roman.glyphs -i -f -o ttf --output-dir ../FONTS/static/ttf
-fontmake -g REM-Italics.glyphs -i -f -o ttf --output-dir ../FONTS/static/ttf
+fontmake -g REM-Roman.glyphs -i -f -o ttf --output-dir ../FONTS/ttf/static
+fontmake -g REM-Italics.glyphs -i -f -o ttf --output-dir ../FONTS/ttf/static
 
 
 echo "POST PROCESSING TTFs"
@@ -49,7 +49,7 @@ do
     
 	gftools fix-hinting $ttf;
     mv "$ttf.fix" $ttf;    
-    
+
 done
 
 
