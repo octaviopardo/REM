@@ -39,7 +39,7 @@ fontmake -g REM-Italics.glyphs -i -f -o ttf --output-dir ../FONTS/ttf/static
 
 
 echo "POST PROCESSING TTFs"
-ttfs=$(ls ../FONTS/ttf/*.ttf)
+ttfs=$(ls ../FONTS/ttf/static/*.ttf)
 for ttf in $ttfs
 do
 	ttfautohint $ttf "$ttf.fix";
