@@ -1,7 +1,7 @@
 {
-.appVersion = "1342";
+.appVersion = "1352";
 DisplayStrings = (
-"eects\012eciency\012aandia\012/fi nalissimo\012/fl avour",
+"nn/Placeholder no/Placeholder oo\012abcdefghijklmnopqrstuvwxyz",
 "ppp\012lll",
 "AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave p/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute",
 G,
@@ -44,6 +44,16 @@ name = "Enforce Compatibility Check";
 value = 1;
 },
 {
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+NULL,
+space,
+nbspace
+);
+},
+{
 name = Axes;
 value = (
 {
@@ -67,22 +77,9 @@ wght = {
 900 = 445;
 };
 };
-},
-{
-name = glyphOrder;
-value = (
-.notdef,
-CR,
-NULL,
-nbspace
-);
-},
-{
-name = "Enforce Compatibility Check";
-value = 1;
 }
 );
-date = "2020-12-18 02:14:54 +0000";
+date = "2021-09-15 22:06:14 +0000";
 designer = "Octavio Pardo";
 designerURL = www.octaviopardo.com;
 familyName = REM;
@@ -505,6 +502,26 @@ width = 1200;
 }
 );
 unicode = 000D;
+},
+{
+color = 9;
+glyphname = space;
+lastChange = "2020-12-22 23:58:30 +0000";
+layers = (
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+width = 512;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+width = 645;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+width = 573;
+}
+);
+unicode = 0020;
 },
 {
 glyphname = nbspace;
@@ -20460,7 +20477,7 @@ unicode = 010B;
 {
 color = 4;
 glyphname = d;
-lastChange = "2020-12-22 23:58:30 +0000";
+lastChange = "2021-09-15 22:17:28 +0000";
 layers = (
 {
 anchors = (
@@ -22796,7 +22813,7 @@ unicode = 0259;
 {
 color = 4;
 glyphname = f;
-lastChange = "2020-12-22 23:58:30 +0000";
+lastChange = "2021-09-15 22:20:44 +0000";
 layers = (
 {
 background = {
@@ -23034,7 +23051,7 @@ unicode = 0066;
 {
 color = 4;
 glyphname = g;
-lastChange = "2020-12-22 23:58:30 +0000";
+lastChange = "2021-09-15 22:20:19 +0000";
 layers = (
 {
 anchors = (
@@ -72738,26 +72755,6 @@ rightKerningGroup = quotesingle;
 unicode = 0027;
 },
 {
-color = 9;
-glyphname = space;
-lastChange = "2020-12-22 23:58:30 +0000";
-layers = (
-{
-layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
-width = 512;
-},
-{
-layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
-width = 645;
-},
-{
-layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
-width = 573;
-}
-);
-unicode = 0020;
-},
-{
 glyphname = baht;
 lastChange = "2020-12-22 23:58:30 +0000";
 layers = (
@@ -104093,7 +104090,6 @@ x.sc = -26.624;
 "@MMK_R_Y" = -163.84;
 "@MMK_R_a" = -20.48;
 "@MMK_R_eth" = -61.44;
-"@MMK_R_o" = -30.72;
 V = -102.4;
 X = -51.2;
 zero = -20.48;
@@ -104136,7 +104132,7 @@ x = -20.48;
 "@MMK_R_guilsinglleft" = -61.44;
 "@MMK_R_hyphen" = -40.96;
 "@MMK_R_n" = -30.72;
-"@MMK_R_o" = -61.44;
+"@MMK_R_o" = -32;
 "@MMK_R_period" = -204.8;
 "@MMK_R_quotedblleft" = 61.44;
 "@MMK_R_quotedblright" = 61.44;
@@ -105464,7 +105460,6 @@ x.sc = -55.296;
 "@MMK_R_a" = -20.48;
 "@MMK_R_g.alt" = -20.48;
 "@MMK_R_guilsinglleft" = -20.48;
-"@MMK_R_o" = -30.72;
 V = -122.88;
 X = -40.96;
 bracketright = -30.72;
@@ -105509,7 +105504,7 @@ x = -30.72;
 "@MMK_R_guilsinglleft" = -40.96;
 "@MMK_R_hyphen" = -40.96;
 "@MMK_R_n" = -20.48;
-"@MMK_R_o" = -40.96;
+"@MMK_R_o" = -43;
 "@MMK_R_period" = -184.32001;
 "@MMK_R_quotedblleft" = 40.96;
 "@MMK_R_quotedblright" = 61.44;
@@ -106958,7 +106953,6 @@ x.sc = -55.296;
 "@MMK_R_Y" = -245.75999;
 "@MMK_R_g.alt" = -20.48;
 "@MMK_R_guilsinglleft" = -30.72;
-"@MMK_R_o" = -40.96;
 "@MMK_R_z" = 30.72;
 V = -153.60001;
 X = -20.48;
@@ -107013,7 +107007,7 @@ x = -71.68;
 "@MMK_R_eth" = -61.44;
 "@MMK_R_g.alt" = -61.44;
 "@MMK_R_guilsinglleft" = -30.72;
-"@MMK_R_o" = -40.96;
+"@MMK_R_o" = -10;
 "@MMK_R_period" = -122.88;
 "@MMK_R_quotedblright" = 61.44;
 "@MMK_R_s" = -30.72;
@@ -108111,7 +108105,7 @@ two.osf = -30.72;
 };
 };
 };
-manufacturer = TyOP;
+manufacturer = Pathfinders;
 manufacturerURL = www.octaviopardo.com;
 unitsPerEm = 2048;
 userData = {

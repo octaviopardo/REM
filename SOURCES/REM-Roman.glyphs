@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1352";
 classes = (
 {
 automatic = 1;
@@ -7,12 +7,24 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright © 2021 by Octavio Pardo. All rights reserved.";
+copyright = "Copyright 2019 The REM Project Authors (https://github.com/octaviopardo/REM)";
 customParameters = (
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
 {
 name = fsType;
 value = (
 );
+},
+{
+name = vendorID;
+value = GOOG;
 },
 {
 name = "Use Typo Metrics";
@@ -21,6 +33,25 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+NULL,
+space,
+nbspace
+);
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 },
 {
 name = "Axis Mappings";
@@ -37,43 +68,9 @@ wght = {
 900 = 445;
 };
 };
-},
-{
-name = glyphOrder;
-value = (
-.notdef,
-CR,
-NULL,
-nbspace
-);
-},
-{
-name = copyright;
-value = "Copyright 2019 The REM Project Authors (https://github.com/octaviopardo/REM)";
-},
-{
-name = designer;
-value = "Octavio Pardo";
-},
-{
-name = manufacturer;
-value = "";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
 }
 );
-}
-);
-date = "2021-04-07 08:11:48 +0000";
+date = "2021-09-15 22:06:10 +0000";
 designer = "Octavio Pardo";
 designerURL = www.octaviopardo.com;
 familyName = REM;
@@ -490,6 +487,26 @@ xHeight = 1075;
 }
 );
 glyphs = (
+{
+color = 9;
+glyphname = space;
+lastChange = "2020-03-07 19:16:40 +0000";
+layers = (
+{
+layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
+width = 512;
+},
+{
+layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
+width = 645;
+},
+{
+layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
+width = 573;
+}
+);
+unicode = 0020;
+},
 {
 glyphname = nbspace;
 lastChange = "2020-03-07 19:16:40 +0000";
@@ -78196,26 +78213,6 @@ width = 580;
 leftKerningGroup = quotesingle;
 rightKerningGroup = quotesingle;
 unicode = 0027;
-},
-{
-color = 9;
-glyphname = space;
-lastChange = "2020-03-07 19:16:40 +0000";
-layers = (
-{
-layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
-width = 512;
-},
-{
-layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
-width = 645;
-},
-{
-layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
-width = 573;
-}
-);
-unicode = 0020;
 },
 {
 glyphname = baht;
