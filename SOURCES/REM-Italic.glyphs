@@ -77,6 +77,10 @@ wght = {
 900 = 445;
 };
 };
+},
+{
+name = "Variable Font Origin";
+value = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
 }
 );
 date = "2021-09-15 22:06:14 +0000";
@@ -486,6 +490,23 @@ xHeight = 1075;
 );
 glyphs = (
 {
+glyphname = .notdef;
+layers = (
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+width = 1200;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+width = 1200;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+width = 1200;
+}
+);
+},
+{
 glyphname = CR;
 layers = (
 {
@@ -502,6 +523,23 @@ width = 1200;
 }
 );
 unicode = 000D;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+width = 1200;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+width = 1200;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+width = 1200;
+}
+);
 },
 {
 color = 9;

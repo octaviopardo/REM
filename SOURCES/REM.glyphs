@@ -1,5 +1,8 @@
 {
 .appVersion = "1352";
+DisplayStrings = (
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+);
 classes = (
 {
 automatic = 1;
@@ -68,6 +71,10 @@ wght = {
 900 = 445;
 };
 };
+},
+{
+name = "Variable Font Origin";
+value = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
 }
 );
 date = "2021-09-15 22:06:10 +0000";
@@ -487,6 +494,58 @@ xHeight = 1075;
 }
 );
 glyphs = (
+{
+glyphname = .notdef;
+layers = (
+{
+layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
+width = 1200;
+},
+{
+layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
+width = 1200;
+},
+{
+layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
+width = 1200;
+}
+);
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
+width = 1200;
+},
+{
+layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
+width = 1200;
+},
+{
+layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
+width = 1200;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
+width = 1200;
+},
+{
+layerId = "514A1583-697A-4C0A-B081-2869E94CF283";
+width = 1200;
+},
+{
+layerId = "5C950900-0D0F-4959-81DE-75F048290F1B";
+width = 1200;
+}
+);
+},
 {
 color = 9;
 glyphname = space;
