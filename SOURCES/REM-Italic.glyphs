@@ -965,11 +965,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 930;
+value = 980;
 },
 {
 name = typoDescender;
-value = -225;
+value = -270;
 },
 {
 name = typoLineGap;
@@ -977,11 +977,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 930;
+value = 980;
 },
 {
 name = hheaDescender;
-value = -225;
+value = -270;
 },
 {
 name = hheaLineGap;
@@ -1069,11 +1069,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 930;
+value = 980;
 },
 {
 name = typoDescender;
-value = -225;
+value = -270;
 },
 {
 name = typoLineGap;
@@ -1081,11 +1081,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 930;
+value = 980;
 },
 {
 name = hheaDescender;
-value = -225;
+value = -270;
 },
 {
 name = hheaLineGap;
@@ -1169,11 +1169,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 930;
+value = 980;
 },
 {
 name = typoDescender;
-value = -225;
+value = -270;
 },
 {
 name = typoLineGap;
@@ -1181,11 +1181,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 930;
+value = 980;
 },
 {
 name = hheaDescender;
-value = -225;
+value = -270;
 },
 {
 name = hheaLineGap;
