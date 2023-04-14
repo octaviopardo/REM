@@ -123,12 +123,11 @@ code = "pos L' -40 quotedblright' 80 [A Aacute Abreve Acircumflex Adieresis Agra
 tag = kern;
 },
 {
-automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+    sub [i j idotbelow iogonek]' @CombiningTopAccents by [idotless jdotless idotless_dotbelowcomb idotless_ogonekcomb];
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
@@ -25406,6 +25405,98 @@ width = 267;
 metricLeft = n;
 metricRight = u;
 unicode = 305;
+},
+{
+color = 9;
+glyphname = idotless_dotbelowcomb;
+lastChange = "2023-04-14 00:46:10 +0000";
+layers = (
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (105,0);
+ref = dotbelowcomb;
+}
+);
+width = 216;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (133,0);
+ref = dotbelowcomb;
+}
+);
+width = 267;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (153,0);
+ref = dotbelowcomb;
+}
+);
+width = 307;
+}
+);
+},
+{
+color = 9;
+glyphname = idotless_ogonekcomb;
+lastChange = "2023-04-14 00:46:10 +0000";
+layers = (
+{
+layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (66,0);
+ref = ogonekcomb;
+}
+);
+width = 216;
+},
+{
+layerId = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (111,0);
+ref = ogonekcomb;
+}
+);
+width = 267;
+},
+{
+layerId = "6D60D92C-1450-4586-BB49-599D0D4C1213";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (150,0);
+ref = ogonekcomb;
+}
+);
+width = 307;
+}
+);
 },
 {
 glyphname = iacute;
