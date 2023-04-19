@@ -1,6 +1,9 @@
 {
-.appVersion = "3182";
+.appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+hagan
+);
 axes = (
 {
 name = Weight;
@@ -42,15 +45,15 @@ nbspace
 name = "Axis Mappings";
 value = {
 wght = {
-72 = 100;
-120 = 200;
-164 = 300;
-208 = 400;
-257 = 500;
-308 = 600;
-350 = 700;
-402 = 800;
-445 = 900;
+100 = 72;
+200 = 120;
+300 = 164;
+400 = 208;
+500 = 257;
+600 = 308;
+700 = 350;
+800 = 402;
+900 = 445;
 };
 };
 }
@@ -104418,12 +104421,18 @@ name = "Black Italic";
 weightClass = 900;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
 }
 );
+instanceInterpolations = {
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 1;
+};
 name = Regular;
 type = variable;
 }
