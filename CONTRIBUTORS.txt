@@ -16,5 +16,5 @@
 # Please keep the list sorted.
 # (first name; alphabetical order)
 
-Octavio Pardo <hello@octaviopardo.com>
+Octavio Pardo <octavio@ashler.design>
 Viviana Monsalve <viviana.monsalve.a@gmail.com>
