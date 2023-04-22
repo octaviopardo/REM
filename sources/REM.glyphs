@@ -109922,24 +109922,6 @@ instances = (
 axesValues = (
 72
 );
-customParameters = (
-{
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-naira.bold,
-peso.bold,
-won.bold,
-baht.bold,
-cent.osf.bold,
-eth.bold,
-peseta.bold,
-peso.bold,
-eth.bold
-);
-}
-);
 instanceInterpolations = {
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 1;
 };
@@ -109949,24 +109931,6 @@ weightClass = 100;
 {
 axesValues = (
 120
-);
-customParameters = (
-{
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-naira.bold,
-peso.bold,
-won.bold,
-baht.bold,
-cent.osf.bold,
-eth.bold,
-peseta.bold,
-peso.bold,
-eth.bold
-);
-}
 );
 instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.25806;
@@ -109979,24 +109943,6 @@ weightClass = 200;
 axesValues = (
 164
 );
-customParameters = (
-{
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-naira.bold,
-peso.bold,
-won.bold,
-baht.bold,
-cent.osf.bold,
-eth.bold,
-peseta.bold,
-peso.bold,
-eth.bold
-);
-}
-);
 instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.49462;
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.50538;
@@ -110008,27 +109954,6 @@ weightClass = 300;
 axesValues = (
 208
 );
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"naira.bold=naira",
-"peso.bold=peso",
-"won.bold=won",
-"baht.bold=baht",
-"eth.bold=eth"
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-cent.osf.bold,
-peseta.bold
-);
-}
-);
 instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.73118;
 "620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.26882;
@@ -110038,27 +109963,6 @@ name = Regular;
 {
 axesValues = (
 257
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"naira.bold=naira",
-"peso.bold=peso",
-"won.bold=won",
-"baht.bold=baht",
-"eth.bold=eth"
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-cent.osf.bold,
-peseta.bold
-);
-}
 );
 instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.99462;
@@ -110071,27 +109975,6 @@ weightClass = 500;
 axesValues = (
 308
 );
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"naira.bold=naira",
-"peso.bold=peso",
-"won.bold=won",
-"baht.bold=baht",
-"eth.bold=eth",
-"peseta.bold=peseta"
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-cent.osf.bold
-);
-}
-);
 instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.73262;
 "5C950900-0D0F-4959-81DE-75F048290F1B" = 0.26738;
@@ -110102,22 +109985,6 @@ weightClass = 600;
 {
 axesValues = (
 350
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"naira.bold=naira",
-"peso.bold=peso",
-"won.bold=won",
-"baht.bold=baht",
-"eth.bold=eth",
-"peseta.bold=peseta",
-"cent.bold=cent",
-"dollar.bold=dollar",
-"cent.osf.bold=cent.osf"
-);
-}
 );
 instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.50802;
@@ -110131,22 +109998,6 @@ weightClass = 700;
 axesValues = (
 402
 );
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"naira.bold=naira",
-"peso.bold=peso",
-"won.bold=won",
-"baht.bold=baht",
-"eth.bold=eth",
-"peseta.bold=peseta",
-"cent.bold=cent",
-"dollar.bold=dollar",
-"cent.osf.bold=cent.osf"
-);
-}
-);
 instanceInterpolations = {
 "514A1583-697A-4C0A-B081-2869E94CF283" = 0.22995;
 "5C950900-0D0F-4959-81DE-75F048290F1B" = 0.77005;
@@ -110157,22 +110008,6 @@ weightClass = 800;
 {
 axesValues = (
 445
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"naira.bold=naira",
-"peso.bold=peso",
-"won.bold=won",
-"baht.bold=baht",
-"eth.bold=eth",
-"peseta.bold=peseta",
-"cent.bold=cent",
-"dollar.bold=dollar",
-"cent.osf.bold=cent.osf"
-);
-}
 );
 instanceInterpolations = {
 "5C950900-0D0F-4959-81DE-75F048290F1B" = 1;
