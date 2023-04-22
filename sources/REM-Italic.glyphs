@@ -5,7 +5,8 @@ DisplayStrings = (
 "fifl
 ﬁﬂ/iacute_j.loclnld.sc",
 abcdefghijklmnopqrstuvwxyz,
-"/cent.osf"
+"/cent.osf",
+noHO
 );
 axes = (
 {
@@ -1072,8 +1073,7 @@ stemValues = (
 35,
 37,
 39,
-41,
-0
+41
 );
 },
 {
@@ -1172,8 +1172,7 @@ stemValues = (
 126,
 129,
 131,
-134,
-121
+134
 );
 },
 {
@@ -1273,8 +1272,7 @@ stemValues = (
 217,
 219,
 223,
-228,
-205
+228
 );
 }
 );
@@ -104955,7 +104953,7 @@ weightClass = 900;
 },
 {
 axesValues = (
-0
+72
 );
 customParameters = (
 {
@@ -104964,9 +104962,7 @@ value = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
 }
 );
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 1.29006;
-"6D60D92C-1450-4586-BB49-599D0D4C1213" = -0.09651;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = -0.19355;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 1;
 };
 name = Regular;
 type = variable;
@@ -109469,10 +109465,6 @@ name = vStem2;
 },
 {
 name = vStem3;
-},
-{
-horizontal = 1;
-name = hStem2;
 }
 );
 unitsPerEm = 1000;
@@ -109484,6 +109476,7 @@ HV = "39";
 OH = "36";
 OV = "41";
 nV = "35";
+nd = "33";
 oH = "33";
 oV = "37";
 tH = "33";

@@ -14,7 +14,8 @@ H,
 "̋",
 "̏",
 "+−×÷=≠><≥≤±≈~¬^∞∫∏√∂µ",
-"   abcdefghijklmnopqrstuvwxyz"
+"   abcdefghijklmnopqrstuvwxyz",
+noHO
 );
 axes = (
 {
@@ -1103,8 +1104,7 @@ stemValues = (
 35,
 37,
 39,
-41,
-0
+41
 );
 userData = {
 GSOffsetHorizontal = 5;
@@ -1207,8 +1207,7 @@ stemValues = (
 126,
 129,
 131,
-134,
-121
+134
 );
 },
 {
@@ -1313,10 +1312,9 @@ stemValues = (
 175,
 195,
 217,
+218,
 223,
-228,
-0,
-205
+228
 );
 }
 );
@@ -114712,10 +114710,6 @@ name = vStem2;
 },
 {
 name = vStem3;
-},
-{
-horizontal = 1;
-name = hStem2;
 }
 );
 unitsPerEm = 1000;
