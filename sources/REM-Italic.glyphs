@@ -39,7 +39,7 @@ name = glyphOrder;
 value = (
 .notdef,
 CR,
-NULL,
+.null,
 space,
 nbspace
 );
@@ -1428,8 +1428,8 @@ width = 586;
 unicode = 13;
 },
 {
-glyphname = NULL;
-lastChange = "2021-09-30 22:27:23 +0000";
+glyphname = .null;
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
@@ -21683,11 +21683,11 @@ metricRight = "=|n";
 unicode = 100;
 },
 {
-color = 8;
+color = 9;
 glyphname = eth;
 kernLeft = eth;
 kernRight = eth;
-lastChange = "2023-04-22 03:23:15 +0000";
+lastChange = "2023-04-22 03:47:24 +0000";
 layers = (
 {
 background = {
@@ -21876,7 +21876,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 308;
+min = 208;
 }
 );
 };
@@ -21894,7 +21894,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 308;
+min = 208;
 }
 );
 };
@@ -21912,7 +21912,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 308;
+min = 208;
 }
 );
 };
@@ -90943,7 +90943,7 @@ color = 1;
 glyphname = cent.osf.bold;
 kernLeft = o;
 kernRight = c;
-lastChange = "2023-04-22 03:35:59 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 background = {
@@ -102222,7 +102222,7 @@ unicode = 700;
 {
 color = 0;
 glyphname = breveacutecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -102289,7 +102289,7 @@ width = 0;
 {
 color = 0;
 glyphname = brevegravecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -102364,7 +102364,7 @@ width = 0;
 {
 color = 0;
 glyphname = brevehookabovecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -102463,7 +102463,7 @@ width = 0;
 {
 color = 0;
 glyphname = brevetildecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -102552,7 +102552,7 @@ width = 0;
 },
 {
 glyphname = circumflexacutecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -102667,7 +102667,7 @@ width = 0;
 },
 {
 glyphname = circumflexgravecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -102885,7 +102885,7 @@ width = 0;
 },
 {
 glyphname = circumflexhookabovecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103098,7 +103098,7 @@ width = 0;
 },
 {
 glyphname = circumflextildecomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103164,7 +103164,7 @@ width = 0;
 },
 {
 glyphname = dieresismacroncomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103227,7 +103227,7 @@ width = 0;
 },
 {
 glyphname = dotaccentmacroncomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103311,7 +103311,7 @@ width = 0;
 },
 {
 glyphname = tildemacroncomb;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103377,7 +103377,7 @@ width = 0;
 },
 {
 glyphname = breveacutecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103448,7 +103448,7 @@ width = 0;
 },
 {
 glyphname = brevegravecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103525,7 +103525,7 @@ width = 0;
 },
 {
 glyphname = brevehookabovecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103598,7 +103598,7 @@ width = 0;
 },
 {
 glyphname = brevetildecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103692,7 +103692,7 @@ width = 0;
 },
 {
 glyphname = circumflexacutecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -103893,7 +103893,7 @@ width = 0;
 },
 {
 glyphname = circumflexgravecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -104068,7 +104068,7 @@ width = 0;
 },
 {
 glyphname = circumflexhookabovecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -104419,7 +104419,7 @@ width = 0;
 },
 {
 glyphname = circumflextildecomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -104483,7 +104483,7 @@ width = 0;
 },
 {
 glyphname = dieresismacroncomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -104546,7 +104546,7 @@ width = 0;
 },
 {
 glyphname = dotaccentmacroncomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -104609,7 +104609,7 @@ width = 0;
 },
 {
 glyphname = tildemacroncomb.case;
-lastChange = "2021-09-30 22:27:24 +0000";
+lastChange = "2023-04-22 03:42:14 +0000";
 layers = (
 {
 anchors = (
@@ -104687,7 +104687,7 @@ naira.bold,
 peso.bold,
 won.bold,
 baht.bold,
-cent.bold.osf,
+cent.osf.bold,
 eth.bold
 );
 }
@@ -104715,7 +104715,7 @@ naira.bold,
 peso.bold,
 won.bold,
 baht.bold,
-cent.bold.osf,
+cent.osf.bold,
 eth.bold
 );
 }
@@ -104744,7 +104744,7 @@ naira.bold,
 peso.bold,
 won.bold,
 baht.bold,
-cent.bold.osf,
+cent.osf.bold,
 eth.bold
 );
 }
@@ -104765,22 +104765,23 @@ axesValues = (
 customParameters = (
 {
 disabled = 1;
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-cent.bold.osf,
-eth.bold
-);
-},
-{
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
 "peso.bold=peso",
 "won.bold=won",
-"baht.bold=baht"
+"baht.bold=baht",
+"eth.bold=eth"
+);
+},
+{
+disabled = 1;
+name = "Remove Glyphs";
+value = (
+cent.bold,
+dollar.bold,
+cent.osf.bold,
+peseta.bold
 );
 }
 );
@@ -104798,22 +104799,23 @@ axesValues = (
 customParameters = (
 {
 disabled = 1;
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-cent.bold.osf,
-eth.bold
-);
-},
-{
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
 "peso.bold=peso",
 "won.bold=won",
-"baht.bold=baht"
+"baht.bold=baht",
+"eth.bold=eth"
+);
+},
+{
+disabled = 1;
+name = "Remove Glyphs";
+value = (
+cent.bold,
+dollar.bold,
+cent.osf.bold,
+peseta.bold
 );
 }
 );
@@ -104833,15 +104835,6 @@ axesValues = (
 customParameters = (
 {
 disabled = 1;
-name = "Remove Glyphs";
-value = (
-cent.bold,
-dollar.bold,
-cent.bold.osf
-);
-},
-{
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -104850,6 +104843,15 @@ value = (
 "baht.bold=baht",
 "eth.bold=eth",
 "peseta.bold=peseta"
+);
+},
+{
+disabled = 1;
+name = "Remove Glyphs";
+value = (
+cent.bold,
+dollar.bold,
+cent.osf.bold
 );
 }
 );
@@ -104871,15 +104873,15 @@ customParameters = (
 disabled = 1;
 name = "Rename Glyphs";
 value = (
-"cent.bold=cent",
-"dollar.bold=dollar",
 "naira.bold=naira",
 "peso.bold=peso",
 "won.bold=won",
 "baht.bold=baht",
-"cent.bold.osf=cent.osf",
 "eth.bold=eth",
-"peseta.bold=peseta"
+"peseta.bold=peseta",
+"cent.bold=cent",
+"dollar.bold=dollar",
+"cent.osf.bold=cent.osf"
 );
 }
 );
@@ -104901,15 +104903,15 @@ customParameters = (
 disabled = 1;
 name = "Rename Glyphs";
 value = (
-"cent.bold=cent",
-"dollar.bold=dollar",
 "naira.bold=naira",
 "peso.bold=peso",
 "won.bold=won",
 "baht.bold=baht",
-"cent.bold.osf=cent.osf",
 "eth.bold=eth",
-"peseta.bold=peseta"
+"peseta.bold=peseta",
+"cent.bold=cent",
+"dollar.bold=dollar",
+"cent.osf.bold=cent.osf"
 );
 }
 );
@@ -104931,15 +104933,15 @@ customParameters = (
 disabled = 1;
 name = "Rename Glyphs";
 value = (
-"cent.bold=cent",
-"dollar.bold=dollar",
 "naira.bold=naira",
 "peso.bold=peso",
 "won.bold=won",
 "baht.bold=baht",
-"cent.bold.osf=cent.osf",
 "eth.bold=eth",
-"peseta.bold=peseta"
+"peseta.bold=peseta",
+"cent.bold=cent",
+"dollar.bold=dollar",
+"cent.osf.bold=cent.osf"
 );
 }
 );
