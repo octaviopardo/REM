@@ -2,7 +2,9 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-hagan
+"fifl
+ﬁﬂ/iacute_j.loclnld.sc",
+abcdefghijklmnopqrstuvwxyz
 );
 axes = (
 {
@@ -900,6 +902,12 @@ sub aring by aring.ss01;
 sub aringacute by aringacute.ss01;
 sub atilde by atilde.ss01;
 ";
+labels = (
+{
+language = dflt;
+value = "Cursive a";
+}
+);
 tag = ss01;
 },
 {
@@ -911,6 +919,12 @@ sub gcircumflex by gcircumflex.ss02;
 sub gcommaaccent by gcommaaccent.ss02;
 sub gdotaccent by gdotaccent.ss02;
 ";
+labels = (
+{
+language = dflt;
+value = "Grotesque g";
+}
+);
 tag = ss02;
 },
 {
@@ -941,6 +955,12 @@ sub aring by aring.ss03;
 sub aringacute by aringacute.ss03;
 sub atilde by atilde.ss03;
 ";
+labels = (
+{
+language = dflt;
+value = "Straight a";
+}
+);
 tag = ss03;
 }
 );
@@ -42101,7 +42121,7 @@ width = 533;
 {
 glyphname = fi;
 kernLeft = f;
-lastChange = "2023-04-14 22:03:56 +0000";
+lastChange = "2023-04-21 23:59:56 +0000";
 layers = (
 {
 anchors = (
@@ -104431,7 +104451,9 @@ value = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
 }
 );
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 1;
+"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 1.29006;
+"6D60D92C-1450-4586-BB49-599D0D4C1213" = -0.09651;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = -0.19355;
 };
 name = Regular;
 type = variable;
@@ -109020,5 +109042,5 @@ oV = "184";
 };
 };
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }

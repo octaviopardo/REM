@@ -14,8 +14,7 @@ H,
 "̋",
 "̏",
 "+−×÷=≠><≥≤±≈~¬^∞∫∏√∂µ",
-"fifl
-ﬁﬂ/iacute_j.loclnld.sc"
+"   abcdefghijklmnopqrstuvwxyz"
 );
 axes = (
 {
@@ -930,6 +929,12 @@ sub aring by aring.ss01;
 sub aringacute by aringacute.ss01;
 sub atilde by atilde.ss01;
 ";
+labels = (
+{
+language = dflt;
+value = "Cursive a";
+}
+);
 tag = ss01;
 },
 {
@@ -941,6 +946,12 @@ sub gcircumflex by gcircumflex.ss02;
 sub gcommaaccent by gcommaaccent.ss02;
 sub gdotaccent by gdotaccent.ss02;
 ";
+labels = (
+{
+language = dflt;
+value = "Grotesque g";
+}
+);
 tag = ss02;
 },
 {
@@ -971,6 +982,12 @@ sub aring by aring.ss03;
 sub aringacute by aringacute.ss03;
 sub atilde by atilde.ss03;
 ";
+labels = (
+{
+language = dflt;
+value = "Straight a";
+}
+);
 tag = ss03;
 }
 );
@@ -114736,5 +114753,5 @@ oV = "184";
 };
 };
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
