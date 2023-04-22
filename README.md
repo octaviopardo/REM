@@ -1,6 +1,6 @@
 # REM
 
-The REM project is a sans serif font ready for corporate and display uses. It features a heavy low contrast combined with outstrokes that get slightly thinner, which is the opposite of the conventional approach. All together gives it a contemporary feeling suitable for modern branding. With more than 960 glyphs the font is ready for complex type setting with 4 sets of figures, small caps and some alternate glyphs
+The REM font family is a sans serif font ready for corporate and display uses. It features a heavy low contrast combined with outstrokes that get slightly thinner, which is the opposite of the conventional approach. All together gives it a contemporary feeling suitable for modern branding. With more than 960 glyphs the font is ready for complex type setting with 4 sets of figures, small caps and some alternate glyphs. The name "REM" is an acronym for "Rapid Eye Movement," which refers to a stage of sleep characterized by quick, random eye movements. I chose to name the font REM because I dreamt of it and began drawing it from my dream.
 
 ![Sample Image](documentation/image1.png)
 
