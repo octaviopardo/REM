@@ -6,7 +6,8 @@ DisplayStrings = (
 ﬁﬂ/iacute_j.loclnld.sc",
 abcdefghijklmnopqrstuvwxyz,
 "/cent.osf",
-noHO
+noHO,
+"ð฿¢$₦₧₱₩/cent.osf"
 );
 axes = (
 {
@@ -21685,7 +21686,7 @@ color = 9;
 glyphname = eth;
 kernLeft = eth;
 kernRight = eth;
-lastChange = "2023-04-22 03:47:24 +0000";
+lastChange = "2023-04-22 04:17:55 +0000";
 layers = (
 {
 background = {
@@ -21874,7 +21875,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -21892,7 +21893,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -21910,7 +21911,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -74238,7 +74239,7 @@ unicode = 402;
 color = 9;
 glyphname = baht;
 kernRight = B;
-lastChange = "2023-04-22 03:21:34 +0000";
+lastChange = "2023-04-22 04:26:49 +0000";
 layers = (
 {
 background = {
@@ -74734,7 +74735,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -74752,7 +74753,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -74770,7 +74771,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -80410,7 +80411,7 @@ color = 4;
 glyphname = cent;
 kernLeft = o;
 kernRight = c;
-lastChange = "2023-04-22 03:24:52 +0000";
+lastChange = "2023-04-22 04:27:02 +0000";
 layers = (
 {
 background = {
@@ -80594,7 +80595,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -80612,7 +80613,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -80630,7 +80631,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -81348,7 +81349,7 @@ color = 4;
 glyphname = dollar;
 kernLeft = S;
 kernRight = S;
-lastChange = "2023-04-22 03:24:52 +0000";
+lastChange = "2023-04-22 04:27:13 +0000";
 layers = (
 {
 background = {
@@ -81848,7 +81849,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -81866,7 +81867,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -81884,7 +81885,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -83987,7 +83988,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -84005,7 +84006,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -84023,7 +84024,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -84039,9 +84040,9 @@ width = 600;
 unicode = 8358;
 },
 {
-color = 8;
+color = 4;
 glyphname = peseta;
-lastChange = "2023-04-22 03:23:31 +0000";
+lastChange = "2023-04-22 04:14:16 +0000";
 layers = (
 {
 layerId = "13A5184A-77A5-4E03-80A5-A9198A2CA35F";
@@ -84459,7 +84460,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -84477,7 +84478,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -84495,7 +84496,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -86316,7 +86317,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -86334,7 +86335,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -86352,7 +86353,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -88441,7 +88442,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -88459,7 +88460,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -88477,7 +88478,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -104676,7 +104677,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -104704,7 +104704,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -104733,7 +104732,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -104762,7 +104760,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -104773,7 +104770,6 @@ value = (
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -104796,7 +104792,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -104807,7 +104802,6 @@ value = (
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -104832,7 +104826,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -104844,7 +104837,6 @@ value = (
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -104868,7 +104860,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -104898,7 +104889,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -104928,7 +104918,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",

@@ -15,7 +15,8 @@ H,
 "̏",
 "+−×÷=≠><≥≤±≈~¬^∞∫∏√∂µ",
 "   abcdefghijklmnopqrstuvwxyz",
-noHO
+noHO,
+"₧"
 );
 axes = (
 {
@@ -24841,7 +24842,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -24859,7 +24860,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -24877,7 +24878,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -80282,7 +80283,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -80300,7 +80301,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -80318,7 +80319,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -86618,7 +86619,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -86636,7 +86637,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -86654,7 +86655,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -87640,7 +87641,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -87658,7 +87659,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -87676,7 +87677,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -89918,7 +89919,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -89936,7 +89937,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -89954,7 +89955,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -89970,9 +89971,9 @@ width = 600;
 unicode = 8358;
 },
 {
-color = 8;
+color = 4;
 glyphname = peseta;
-lastChange = "2023-04-22 03:31:43 +0000";
+lastChange = "2023-04-22 04:14:09 +0000";
 layers = (
 {
 layerId = "620D8D18-E43F-4D11-9420-7EF908A5CAE8";
@@ -90333,7 +90334,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -90351,7 +90352,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -90369,7 +90370,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -92269,7 +92270,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -92287,7 +92288,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -92305,7 +92306,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 208;
+min = 308;
 }
 );
 };
@@ -94470,7 +94471,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -94488,7 +94489,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -94506,7 +94507,7 @@ attr = {
 axisRules = (
 {
 max = 445;
-min = 350;
+min = 308;
 }
 );
 };
@@ -109923,7 +109924,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -109952,7 +109952,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -109982,7 +109981,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -110012,7 +110010,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -110023,7 +110020,6 @@ value = (
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -110045,7 +110041,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -110056,7 +110051,6 @@ value = (
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -110079,7 +110073,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -110091,7 +110084,6 @@ value = (
 );
 },
 {
-disabled = 1;
 name = "Remove Glyphs";
 value = (
 cent.bold,
@@ -110113,7 +110105,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -110142,7 +110133,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
@@ -110170,7 +110160,6 @@ axesValues = (
 );
 customParameters = (
 {
-disabled = 1;
 name = "Rename Glyphs";
 value = (
 "naira.bold=naira",
