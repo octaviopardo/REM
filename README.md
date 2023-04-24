@@ -1,6 +1,7 @@
 # REM
 
-The REM project is a sans serif font ready for corporate and display uses. It features a heavy low contrast combined with outstrokes that get slightly thinner, which is the opposite of the conventional approach. All together gives it a contemporary feeling suitable for modern branding. With more than 960 glyphs the font is ready for complex type setting with 4 sets of figures, small caps and some alternate glyphs
+The REM project is a sans serif font ready for corporate and display uses. It features a heavy low contrast combined with outstrokes that get slightly thinner, which is the opposite of the conventional approach. All together gives it a contemporary feeling suitable for modern branding. With more than 960 glyphs the font is ready for complex type setting with 4 sets of figures, small caps and some alternate glyphs. The font's default settings display a two-story 'a' and a one-story 'g.' Nevertheless, the user can opt to substitute the 'a' with a one-storey version found in the stylistic set 1, replace the 'g' with a two-storey version in the stylistic set 2, or utilize a two-storey 'a' that lacks an outstroke in the stylistic set 3.
+
 
 ![Sample Image](documentation/image1.png)
 
