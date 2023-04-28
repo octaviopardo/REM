@@ -63,13 +63,17 @@ wght = {
 200 = 120;
 300 = 164;
 400 = 208;
-500 = 257;
+500 = 258;
 600 = 308;
 700 = 350;
 800 = 402;
 900 = 445;
 };
 };
+},
+{
+name = "Variable Font Origin";
+value = "514A1583-697A-4C0A-B081-2869E94CF283";
 }
 );
 date = "2021-09-15 22:06:10 +0000";
@@ -109962,11 +109966,10 @@ name = Regular;
 },
 {
 axesValues = (
-257
+258
 );
 instanceInterpolations = {
-"514A1583-697A-4C0A-B081-2869E94CF283" = 0.99462;
-"620D8D18-E43F-4D11-9420-7EF908A5CAE8" = 0.00538;
+"514A1583-697A-4C0A-B081-2869E94CF283" = 1;
 };
 name = Medium;
 weightClass = 500;
@@ -114616,5 +114619,5 @@ oV = "184";
 };
 };
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }

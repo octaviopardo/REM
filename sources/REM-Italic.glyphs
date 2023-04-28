@@ -54,13 +54,17 @@ wght = {
 200 = 120;
 300 = 164;
 400 = 208;
-500 = 257;
+500 = 258;
 600 = 308;
 700 = 350;
 800 = 402;
 900 = 445;
 };
 };
+},
+{
+name = "Variable Font Origin";
+value = "74CCE9C5-5564-42E0-9214-3BF0725DF94D";
 }
 );
 date = "2021-09-15 22:06:14 +0000";
@@ -104722,11 +104726,10 @@ name = Italic;
 },
 {
 axesValues = (
-257
+258
 );
 instanceInterpolations = {
-"13A5184A-77A5-4E03-80A5-A9198A2CA35F" = 0.00538;
-"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 0.99462;
+"74CCE9C5-5564-42E0-9214-3BF0725DF94D" = 1;
 };
 isItalic = 1;
 linkStyle = Medium;
@@ -109381,5 +109384,5 @@ oV = "184";
 };
 };
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }
